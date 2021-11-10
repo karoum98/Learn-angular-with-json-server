@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "label": "learn JAVA",
+      "completed": true
+    },
+    {
+      "label": "learn angular2",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "label": "learn Laravel",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "label": "formation on devops",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "label": "learn spring boot",
+      "completed": true,
+      "id": 7
+    }
+  ]
+}
