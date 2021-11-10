@@ -34,13 +34,13 @@ export class TasksComponent implements OnInit {
   }
   deletetask(id:any){
     this.taskservice.delete(id).subscribe(()=>{
-      this.tasks=this.tasks.filter(task => task.id!=id)
+      this.resulttasks=this.tasks.filter(task => task.id!=id)
     });
   }
 
   addtask(){
     this.taskservice.add(this.mytask).subscribe((task:any)=>{
-      this.tasks=[task,...this.tasks];
+      this.resulttasks=[task,...this.tasks];
       this.resetmytask();
       this.showForm=false;
  
@@ -73,6 +73,6 @@ export class TasksComponent implements OnInit {
 
   }
   searchtasks(){
-    this.resulttasks=this.tasks.filter((task)=> task.label.toLowerCase().includes(this.searchtext.toLowerCase()));
+    this.resulttasks=this.tasks.filter((task)=> task.label.toLowerCase( ).includes(this.searchtext.toLowerCase()));
   }
 }

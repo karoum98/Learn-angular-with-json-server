@@ -11,19 +11,14 @@
       "id": 4
     },
     {
-      "label": "learn Laravel",
+      "label": "learn JEE",
       "completed": true,
       "id": 5
     },
     {
-      "label": "formation on devops",
+      "label": "learn Devops",
       "completed": false,
       "id": 6
-    },
-    {
-      "label": "learn spring boot",
-      "completed": true,
-      "id": 7
     }
   ]
 }
